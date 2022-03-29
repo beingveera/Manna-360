@@ -1,0 +1,60 @@
+.picart-outer{
+	height: 600px;
+	width: 94.5%;
+	background-color: gray;
+	margin-left: 40px;
+	border: 1px solid lightgray;
+	margin: 0px 0px 20px 40px;
+}
+
+.picart-inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.banner-image{
+	height: 300px;
+	width: 638.7px;
+}
+
+.picart-row{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+}
+
+
+.picart-row-button{
+	border: none;
+	height: 40px;
+	background-color: greenyellow;
+	color: white;
+	width: 100px;
+	border-radius: 5px;
+	box-shadow: 1px 2px 10px white;
+}
+
+.picart-row-button:hover{
+	background-color: white;
+	color: greenyellow;
+}
+
+.picart-row-logo{
+	height: 30px;
+	width: 100px;
+}
+.picart-row-p{
+	font-size: 25px;
+	font-weight: 900;
+	color: white;
+	font-family: sans-serif;
+	text-shadow: 5px 10px 100px white ;
+}
+
+.picart-row-title{
+	font-size: 16px;
+	color: white;
+	width: 300px;
+	text-align: center;
+}

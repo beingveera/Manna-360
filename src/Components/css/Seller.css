@@ -1,0 +1,139 @@
+.seller{
+	position: relative;
+	margin-top: 130px;
+	margin-left: 30px;
+	height: 380px;
+	width: 96%;
+	background-color: rgba(200,100,100,.1);
+}
+
+.seller-header{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.seller-header h5{
+	margin-left: 20px;
+	font-family: sans-serif;
+	font-weight: 600;
+	line-height: 40px;
+
+}
+
+.seller-header .logo{
+	height: 40px;
+	width: 100px;
+	box-shadow: 1px 1px 0px lavender;
+}
+
+.scroller{
+	margin-right: 20px;
+	width: 60px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.left-scroller{
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.right-scroller{
+	font-size: 20px;
+	font-weight: 900;
+	color: gray;
+}
+
+.seller-card-section{
+	height: 300px;
+	width: 100%;
+	display: flex;
+}
+
+
+.seller-card{
+	height: 280px;
+	width: 210px;
+	display: block;
+	flex-wrap: wrap;
+	background-color: white;
+	margin-top: 30px;
+	margin: 30px 10px 10px 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.donet-item{
+	height: 130px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.product-name{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 20px;
+}
+
+
+.product-price{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 0px;
+}
+
+.panigation{
+	display: flex;
+	justify-content:space-between;
+	position: relative;
+	top: -10px;
+}
+
+.panigation-count{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart-container button{
+	width: 70px;
+	background-color: greenyellow;
+	border: none;
+	color: ;
+	border-radius: 2px;
+}
+
+.cart-container button:hover{
+	background-color: white;
+	color: greenyellow;
+	border-radius: 2px;
+	transition: 1s;
+
+}
+
+.product-count{
+	margin: 0px 25px;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+
+.plus{
+	font-size: 20px;
+	line-height: 20px;
+	color: gray;
+	border: none;
+	background-color: white;
+}
+
+.minus{
+	font-size: 20px;
+	line-height: 20px;
+	color: gray;
+	border: none;
+	background-color: white;
+}
